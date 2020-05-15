@@ -1,3 +1,7 @@
+# Add this file to 'Custom Keyboard shortcut', to launch this file automatically on a certain keyboard shortcut
+# Modify address_bar_x, address_bar_y according to your screen and browser dimensions
+# Modify filepath to your desired download location
+
 import pyautogui as gui
 import pafy
 import clipboard as cb
@@ -7,7 +11,6 @@ filepath = '/home/dipayan/Downloads/my_music/'
 
 #pre-requisite : web-browser has to be in maximized mode
 address_bar_x, address_bar_y = 400, 115 #for my screen size and mozilla
-prompt_box_x, prompt_box_y = 400, 298
 
 #click on address bar
 gui.click(0,440)                        #reset brownser state
